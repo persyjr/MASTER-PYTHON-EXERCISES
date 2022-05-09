@@ -3,8 +3,10 @@
 #2) How many apples wil remain in the basket.
 #Hint: You can resolve this exercise either importing the math module or without it 
 def apple_sharing(n,k):
-  
-  return None
+  parte_enetera=int(k/n)
+  parte_indivisible=k%n
+  result=(parte_enetera,parte_indivisible)
+  return result
  
     
 
